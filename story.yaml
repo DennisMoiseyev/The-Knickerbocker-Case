@@ -1,0 +1,320 @@
+Title: The Knickerbocker Case
+Begin: Intro
+
+Scenes:
+
+  Intro: 
+    Credit: >
+          Image provided by Shutterstock, https://www.shutterstock.com/de/video/clip-1009708991-noir-film-detective-standing-dark-smoking-cigarette
+    Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FDetective.jpg?v=1580171752271
+    Caption: >
+            The year is 1948...
+            <br/><br/>
+            And it's business as usual for a veteran homicide detective in crime-ridden Los Angeles. Your desk is flooded with criminal 
+            reports, the files all loosely scattered around the desk's metallic surface area. The phones have also been peevishly feverish all day.
+            The constant ringing often brings back the dreary toils of war.
+            <br/><br/>
+            At 2 A.M. Pacific Time, you recieve a phone call from a resident of the Knickerbocker Hotel located in Hollywoodland, 
+            California. The voice is hoarse and quite raspy, but you can make out that it's a male on the other end
+            of the line. He's informed you that a young woman has been murdered in the vicinity of the hotel. 
+            <br/><br/>
+            Just when you thought you could finally dispose of your fedora and call it a night. 
+
+      
+    Choices:
+      - Text: File reports
+        Target: Organization
+      - Text: Drive to hotel
+        Target: Knickerbocker
+
+  Organization:
+      Credit: >
+                Image provided by Shutterstock, https://www.shutterstock.com/de/video/clip-1009708991-noir-film-detective-standing-dark-smoking-cigarette
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FDetective.jpg?v=1580171752271
+      Captions:
+          - The year is 1946...
+            <br/><br/>
+            And it's business as usual for a veteran homicide detective in crime-ridden Los Angeles. Your desk is flooded with criminal 
+            reports, the files loosely scattered around the desk's metallic surface area. And the phones have been peevishly feverish all day.
+            The constant ringing often brings back the toils of war.
+            <br/><br/>
+            At 2 A.M Pacific Time, you recieve a phone call from a resident of the Knickerbocker Hotel located in Hollywoodland, 
+            California. The voice is hoarse and quite raspy, but you can make out that it's a male on the other end
+            of the line. He's informed you that a young woman has been murdered in the vicinity of the hotel. 
+            <br/><br/>
+            Just when you thought you could finally dispose of your fedora and call it a night.
+            
+          - A good detective needs to have an organized desk. It's important that you clean up your desk and put
+            away all files in their proper folders. The investigation can be put on hold for now. 
+          
+          - "You've spent enough time filing your reports. Your desk is now nice and organized. All of the files have been cleared off. Perhaps, it's time to get on with the investigation."
+          
+      Choices:
+        - Text: File reports
+          Target: Organization
+        - Text: Drive to hotel
+          Target: Knickerbocker
+    
+  Knickerbocker: 
+    Credit: >
+          Image provided by Water and Power Associates, "Early Los Angeles Historical Buildings (1925 +)", 
+          https://waterandpower.org/museum/Early_LA_Buildings%20(1925%20+)_6_of_8.html
+    Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fhotelknickerbocker.jpg?v=1580177300641
+    Caption: > 
+      You are standing timidly outside the towering Knickerbocker Hotel, your hands trembling as you shakenly attempt to light 
+      a cigarette. The tremors in your hand refuse to subside ever since the war. A cold breeze stiffens your neck. Your anxiety is 
+      imminently curbed by the sweet feel of the cigarette in between your lips.
+      
+    Choices:    
+      - Text: Begin Investigation
+        Target: Lobby
+  Lobby:
+     Credit: >
+          Image provided by From Beneath the Hollywood Sign, "The Sordid History of the Knickerbocker Hotel",  
+          https://frombeneaththehollywoodsign.com/f/the-sordid-history-of-the-knickerbocker-hotel
+     Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fhotellobby.jpg?v=1580183284616
+     Caption: > 
+             The lobby reeks heavy of tobacco and putrescent mold. The furniture is riddled with wine stains amongst other fluids. So much 
+             for the glamour of Hollywoodland, you think to yourself.
+             <br/><br/>
+             The lobby appears vacant, but you hear a clamor coming from the lounge, which is to your right.
+             The doors to the elevator are straight ahead. 
+     Choices:
+      - Text: Enter lounge
+        Target: Lounge
+      - Text: Proceed to the elevator
+        Target: Elevator
+  Lounge:
+    Credit: >
+          Image provided by Pintrest.com, "The Knickerbocker: Times Square’s First Luxury Hotel Is Reborn as a Modern Landmark", 
+          https://www.pinterest.com/pin/169236898476030148/?lp=true
+    Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FLounge.jpg?v=1580186707922
+    Caption: >
+              You quickly find a dapper looking gentleman wiping the bar glasses with a piece of cloth. You ascertain that he must've just
+              restocked the bar with new alcohol. 
+    Choices:
+      - Text: Approach the man
+        Target: Bar Man
+  Bar Man:
+      Credit: >
+            Image provided by The Cocktail Lovers, "Our favourite bartenders: Nelson Bernardes, Good Godfrey’s, The Waldorf Hilton", 
+            http://www.thecocktaillovers.com/2013/02/our-favourite-bartenders-nelson-bernardes-good-godfreys-the-waldorf-hilton/
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fbartender.jpg?v=1580187955087
+      Caption: >
+                The bartender pours you a shot of Jack Daniel's and introduces himself as caretaker Daniel O'Banion. He gives off an eerie vibe.
+                The counter vibrates with each word, causing certain objects to shake. It feels as though he's tethered to the hotel. Quite ominous. 
+                <br/><br/>
+                You tell him you're not here for a drink, strictly business. You show him your badge and ask about the
+                the call you received. 
+                <br/><br/>
+                Mr. O'Banion doesn't recall any phone call being made. However, he points you to the elevators and tells
+                you that you're free to look around.
+      Choices:
+        - Text: Go to the elevator
+          Target: Elevator   
+  Elevator:
+      Credit: >
+          Image provided by josianekeller.com, "Josaine Keller", https://www.josianekeller.com/107-josiane-keller-golden-elevator-doors/
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Felevatordoors.jpg?v=1580191478592
+      Caption: > 
+                You call an elevator and patiently await it to come down.
+      Choices:
+        - Text: Enter elevator
+          Target: Interior 
+          
+  Interior:
+     Credit: >
+          Image provided by Pintrest.com, "Richfield Elevator Building", https://www.pinterest.com/pin/181269953721705234/?lp=true
+     Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Finterior.jpg?v=1580192335231
+     Caption: >
+               The moment you step inside the elevator, the doors seal shut and you are lifted up to the
+               tenth floor. As if possessed, the elevator itself pressed the floor button for you and pointed
+               you in the right direction. You tightly grasp onto the handlebar as the elevator pulls you
+               ten stories high. 
+     Choices:
+        - Text: Leave elevator
+          Target: Body
+      
+  Body: 
+      Caption: > 
+                From the moment you step out of the elevator, you are met with the sight of a deceased woman poking
+                out midway from the door of her hotel room. You gently peel back the door and consider its condition. Immediately, you can see there are no signs
+                of forced entry. You shift your gaze downwards towards the body. 
+      Credit: >
+            Image provided by Writeoreel.com, "Script Review",https://writetoreel.com/scriptreview                
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FDead%20Body.jpg?v=1580172210140
+      
+      Choices:
+        - Text: Take a closer look
+          Target: Close Up
+        - Text: Investigate the room
+          Target: Hotel Room
+          
+  Close Up:
+      Credit: >
+            Image provided by PakistanToday, "Woman allegedly poisoned to death in Rawalpindi",
+            https://www.pakistantoday.com.pk/2016/12/29/woman-allegedly-poisoned-to-death-in-rawalpindi/
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fcloseup.jpg?v=1580193634047
+      Caption: >
+                As you closely examnine the body, there are no ligature marks that you can see.
+                There also doesn't appear to be any stab wounds anywhere remotely on her body. You tilt 
+                her head to the side and notice a branding mark scorched into her skin. You make it
+                out to be the symbol of a local Irish mob. That tells you she was mob property.
+                <br/><br/>
+                You think you've seen enough, but something you notice stops you. There was a slight jitter in her mouth. 
+                There's no way she can possibly be alive due to the rigor mortis that's already eaten up much of her body. You
+                slip on some latex gloves and gently pull her chin down to unveil the inside of her mouth. As your are about to peer in
+                with the light of your flashlight, a mangy rat crawls out of her mouth and quickly scatters away. You can see that her tongue 
+                has been removed. The first thought that comes to mind is the mob was involved. That's just what they do to people who
+                say something they should've kept to themselves. 
+                <br/><br/>
+                If the evidence has made itself clear to you, feel free to leave and piece it all together at your desk. If you further feel the 
+                need to explore, go with your gut instinct. 
+      
+      Choices:
+        - Text: Explore room
+          Target: Hotel Room
+        - Text: Leave hotel
+          Target: End
+          
+  Hotel Room:
+      Credit: >
+            Image provided by kingeddyhotel,wordpress.com, "History of the King Edward Hotel", https://kingeddyhotel.wordpress.com/2012/12/18/rooms-through-the-years-at-the-king-edward-hotel/1940s-room/
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2F1940s-room.jpg?v=1580238130141
+      Caption: >
+                An average hotel room stocked with the generic furnishes you'd expect. All the furniture remains intact.
+                There doesn't seem to have been any struggle that took place. On your right, you see the bathroom. To the left
+                is the main bedroom. 
+      
+      Choices:
+        - Text: Investigate bathroom
+          Target: Bathroom
+        - Text: Investigate bedroom
+          Target: Bedroom
+        
+  Bathroom:
+      Credit: >
+            Image provided by forums.yoworld.com,"Theme Suggestion: Film Noir Murder Mysterey", 
+            https://www.google.com/search?rlz=1C1CHBF_enUS878US878&biw=1536&bih=754&tbm=isch&sa=1&ei=cX8vXo7VMNfS-gSpsZu4Ag&q=female+dead+body+noir&oq=female+dead+body+noir&gs_l=img.3...15657.16540..16598...0.0..0.392.1223.2j1j1j2......0....1..gws-wiz-img.......0i8i30j0i8i7i30.FgZIJ8uwRC4&ved=0ahUKEwjO0ZiThKXnAhVXqZ4KHanYBicQ4dUDCAc&uact=5#imgdii=MaUs7957sWhzWM:&imgrc=H2pZ8ZLWmqNP7M:
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FBathroom.jpg?v=1580172213872
+      Caption: >
+                There appears to be a hole in the bathroom wall beside the tub. You can also see a cracked 
+                mirror along with something ominously drawn out in blood. 
+      
+      Choices:
+        - Text: Check out hole
+          Target: Hole
+        - Text: Check out mirror
+          Target: Mirror
+        - Text: Check out blood
+          Target: Blood
+  Hole:
+      Credit: >
+          Image provided by Quartz.com, "Can you read this spellbook for 17th-century witches? This library has a job for you",
+          https://qz.com/1028177/can-you-read-these-spellbooks-for-medieval-witches-this-library-has-a-job-for-you/
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fdemonic%20shit.jpg?v=1580279186525
+      Caption: >
+                Reaching your hand gently into the hole, you uncover what appears to be a dusty old manuscript page.
+                The page is written in Latin and describes various incantations. And the bottom corner of the page is smudged
+                with blood. A strange item to have hidden in the walls. 
+      Choices:
+        - Text: Move over to mirror
+          Target: Mirror
+        - Text: Examine blood
+          Target: Blood
+        - Text: Leave bathroom
+          Target: Hotel Room
+  Mirror: 
+      Credit: >
+          Image provided by Needpix, "Shard Shard Of Glass Glass Free Photo",
+          https://www.needpix.com/photo/6147/shard-shard-of-glass-glass-sharp-broken-cut-pointed,
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fshard.jpg?v=1580240250978
+      Caption: >         
+                The shattered mirror is missing a shard, which was no doubt used to cut out the victim's
+                tongue. Seems like she had a guest with her. Maybe someone the mob didn't warrant. 
+      Choices:
+        - Text: Examine hole
+          Target: Hole
+        - Text: Look at blood
+          Target: Blood
+        - Text: Leave bathroom
+          Target: Hotel Room
+  Blood:
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FGAMEASSET.png?v=1580261758978
+      Caption: >
+                A satanic pentagram expressed in blood. Below it, the words: "Beware the Knicker" are
+                likewise eerily written out in blood. A shiver runs down your spine. 
+      Choices:
+        - Text: Examine hole
+          Target: Hole
+        - Text: Examine mirror
+          Target: Mirror
+        - Text: Leave bathroom
+          Target: Hotel Room
+          
+  Bedroom:
+      Credit: >
+            Image provided by Pintrest.com, https://www.pinterest.com/pin/108649409736900531/?lp=true
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fbedroom.jpg?v=1580263793733
+      Caption: >
+                The bedroom looks like it hasn't been touched. On the floor, you see the woman's purse with 
+                its contents scattered around. Nothing out of the oridnary. You reach down and sort through
+                the pile, but fail to recover her identification card. You instead find some crumpled documents
+                revealing that the Jane Doe is Alina Rusu, a Romanian native. Additionally, underneath the documents, you 
+                recover several locks of hair, unidentical to the hair color representative of Alina. Another strange piece 
+                of the puzzle, you think to yourself.
+                <br/><br/>
+                Having considered all the conflicting evidence there was to be examined, you are ready to head back to the station. 
+      Choices:
+        - Text: Leave the hotel
+          Target: Station
+        - Text: Investigate the bathroom
+          Target: Bathroom
+          
+  Station: 
+      Credit: > 
+                Image provided by Pintrest.com, https://www.pinterest.com/pin/106608716162638069/?lp=true
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2Fnoir%20car.jpg?v=1583265643244
+      Caption: > 
+                You don't want to spend anymore time in that grim hotel than you need to. You take the elevator back down to the
+                lobby, without a hitch, and briskly exit the building. There's more to this mystery than meets the eye. The evidence is conflicting
+                and insurmountable. However, you ride back to the station and piece together the evidence you gathered. 
+      Choices:
+        - Text: Solve the case
+          Target: Conclusion
+          
+  Conclusion:
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FEnd.webp?v=1580263667433
+      Credit: >
+            Image provided by Quora, "Why do they say "fin" and not "finish" at the end of some films? Where'd it come from?", 
+            https://www.quora.com/Why-do-they-say-fin-and-not-finish-at-the-end-of-some-films-Whered-it-come-from
+      Captions:
+          - Given the demonic incantation page that you discovered in the bathroom along with the bloody pentagram on the bathroom mirror,
+            you believe witchcraft was involved. Your theory is that Alina was human trafficked from Romania and sold into prostitution
+            for the Irish mob. They soon found out that she was practicing witchcraft in her room and grew worried that she may plant a 
+            curse on them as revenge for their sins. They killed her and removed her tongue after the fact to make it look like she was 
+            a snitch to ward off any suspicions from the capos and the boss. That's all she wrote. 
+            
+          - You believe what transpired at the hotel was a "Rosemary's Baby" type of situation. All of the residents of the hotel in adjacent rooms
+            and on neighboring floors were part of a cult that uses witchcraft to summon their demonic entity known as the "Knicker." Alina was an easy target for
+            them to be used as part of their sacrifice, for she was stolen from her homeland; no family, no one to come looking for her. They needed some sort of
+            organ from her in order for the sacrifice to proceed. And that would explain her missing tongue. This sends shivers down your spine. 
+          
+          - Maybe Alina found herself in the wrong place at the wrong time and heard something she wasn't supposed to hear.
+            The mobsters shortly found her eavesdropping and decided to cut out her tongue so she wouldn't talk. Perhaps, she could
+            still implicate someone by pointing them out of a lineup, so they proceeded to kill her and make it look as though she was a witch, given
+            her Romanian origins. Goddamn bastards. 
+      
+                
+  End:
+      Credit: >
+          Image provided by Quora, "Why do they say "fin" and not "finish" at the end of some films? Where'd it come from?", 
+          https://www.quora.com/Why-do-they-say-fin-and-not-finish-at-the-end-of-some-films-Whered-it-come-from
+      Image: https://cdn.glitch.com/e943a3df-d932-478d-b792-909bf99b6794%2FEnd.webp?v=1580263667433
+      Caption: >
+                Believing you had all the evidence you needed, getting the fuck out of that creepy hotel was certainly
+                a gut decision. You ruled the murder a mob hit. Your next course of action would be to further question O'Banion
+                and arrest all Irish mob accomplices. That is, if that's really all what went down. 
+                
+  Choices: [] 
+      
